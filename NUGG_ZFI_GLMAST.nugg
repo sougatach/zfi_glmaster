@@ -62,9 +62,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD bi_persistent~find_by_lpor.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     TRY.
@@ -90,9 +90,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD constructor.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_plvar( ).
@@ -133,9 +133,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD get_approvers.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA lt_actor_container TYPE swconttab.
@@ -227,9 +227,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD get_form_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CALL FUNCTION &apos;ISR_SPECIAL_DATA_GET&apos;
@@ -280,9 +280,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD get_instance.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 * Notes:  In Singleton instantiation the same Notification is expected.
 *         If you require instantiation for multiple Notification objects
 *         then use the FACTORY (CREATE) method in this Class.
@@ -303,9 +303,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD get_request_text.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     r_result = SWITCH #( COND #( WHEN iv_req_type IS INITIAL
@@ -339,9 +339,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD is_complete.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA ls_viqmel TYPE viqmel.
@@ -369,9 +369,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_badi_impl) = NEW zcl_im_fi_qisr1_gl_maint( ).
@@ -393,9 +393,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD maintain_masterdata.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;scenario = |ZGLF|.        &quot;only valid for QSCENARIO = |ZGLF|
@@ -501,9 +501,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD simulate.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_badi_impl) = NEW zcl_im_fi_qisr1_gl_maint( ).
@@ -667,9 +667,9 @@ endclass.</localTestClasses>
    <source>METHOD zif_masterdata_factory~get_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_costelem_api(
@@ -706,9 +706,9 @@ endclass.</localTestClasses>
    <source>METHOD zif_masterdata_factory~maintain_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee 
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_costelem_api(
@@ -736,9 +736,9 @@ endclass.</localTestClasses>
    <source>METHOD constructor.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     super-&gt;constructor( ).
@@ -791,9 +791,9 @@ endclass.</localTestClasses>
    <source>METHOD set_api.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     io_api-&gt;clear( ).
@@ -924,9 +924,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD create_costelem.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA lt_return TYPE bapiret2_t.
@@ -999,9 +999,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD maintain_costelem.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee 
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;dummy = SWITCH #( me-&gt;get_mode( )
@@ -1045,9 +1045,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD read_costelem.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA lt_return TYPE bapiret2_t.
@@ -1111,9 +1111,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD update_costelem.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA lt_return TYPE bapiret2_t.
@@ -1294,9 +1294,9 @@ endclass.</localTestClasses>
    <source>METHOD zif_masterdata_factory~get_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   September 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_commitment_api(
@@ -1333,9 +1333,9 @@ endclass.</localTestClasses>
    <source>METHOD zif_masterdata_factory~maintain_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   September 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_commitment_api(
@@ -1507,9 +1507,9 @@ endclass.</localTestClasses>
    <source>METHOD create.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ro_result = COND #( WHEN iv_saknr IS NOT INITIAL
@@ -1643,9 +1643,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata~maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;dummy = SWITCH #( me-&gt;get_mode( )
@@ -1667,9 +1667,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata~read_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(l_versn) = me-&gt;get_versn( ).
@@ -1707,9 +1707,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD _save.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_ktopl( ) AND me-&gt;get_ergsl( ).
@@ -2011,7 +2011,7 @@ CLASS lcl_unit_test IMPLEMENTATION.
     DATA l_version TYPE versn_011 VALUE &apos;1020&apos;.
     DATA l_ergsl   TYPE ergsl VALUE &apos;137&apos;.
     DATA l_ok TYPE c.
-break 11034616.
+
 *    TRY.
 *      zcl_fi_glmast_factory=&gt;create(
 *        EXPORTING
@@ -2076,9 +2076,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD zif_masterdata~existencecheck.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     r_result = COND #( LET l_ktopl = me-&gt;get_ktopl( )
@@ -2114,9 +2114,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_auth_glmast.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     IF me-&gt;get_mode( ) = action-insert OR me-&gt;get_mode( ) = action-update.
@@ -2170,9 +2170,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_bukrs.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK me-&gt;get_bukrs( ).
@@ -2195,9 +2195,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;check_mode( ).
@@ -2250,9 +2250,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_gl.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(l_saknr) = COND #( WHEN iv_saknr IS INITIAL
@@ -2289,9 +2289,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_gl_ccode.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK is_ccode_key IS NOT INITIAL.
@@ -2313,9 +2313,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_gl_coa.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK is_coa_key IS NOT INITIAL.
@@ -2345,9 +2345,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_ktopl.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK me-&gt;get_ktopl( ).
@@ -2375,9 +2375,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     IF NOT me-&gt;get_ktopl( ) AND NOT me-&gt;get_bukrs( ).
@@ -2421,9 +2421,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD check_read.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;check_gl_coa( COND #( WHEN me-&gt;get_ktopl( )
@@ -2543,9 +2543,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD get_ktopl_ccode.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     TRY.
@@ -2570,9 +2570,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD get_refacct_name.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(ls_acct_name) = VALUE glaccount_name(
@@ -2598,9 +2598,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD get_refkeyword.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(ls_keyword) = VALUE glaccount_keyword(
@@ -2632,9 +2632,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
 * check data passed by the caller
@@ -2679,9 +2679,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD read_glmast.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_mode( ).
@@ -2727,9 +2727,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD read_gl_blocks.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_ktopl( ) AND me-&gt;get_bukrs( ).
@@ -2836,9 +2836,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD set_coa_block.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_ktopl( ).
@@ -2886,9 +2886,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD set_coa_delete.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_ktopl( ).
@@ -2975,9 +2975,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _acct_name_mapper.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     rt_result = VALUE #(
@@ -3008,9 +3008,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _ccode_mapper.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK me-&gt;get_bukrs( ).
@@ -3035,9 +3035,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _coa_mapper.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     rs_result = VALUE #(                                                            ##ENH_OK
@@ -3124,9 +3124,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _keyword_mapper.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     rt_result = VALUE #(
@@ -3156,9 +3156,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     &quot;initial checks done - now set mappings
@@ -3179,9 +3179,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD _save.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA lt_return TYPE bapireturn_t.
@@ -3485,9 +3485,9 @@ ENDCLASS.</localTestClasses>
    <source>METHOD get_detail.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     super-&gt;get_detail(
@@ -3607,9 +3607,9 @@ TYPES:
    <source>METHOD get_instance.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     &quot;Design Pattern -&gt; Singleton
@@ -3766,9 +3766,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata~maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_ref( iv_ref ).
@@ -3813,9 +3813,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata~read_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;dummy = SWITCH #( me-&gt;get_mode( )
@@ -3837,9 +3837,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD check_auth.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(l_actvt) = auth_actvt-update.
@@ -3899,9 +3899,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD check_maintain.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     CHECK me-&gt;get_mode( ) = action-update. &quot;AND me-&gt;get_ref( ).
@@ -3956,9 +3956,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD read.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     ASSERT me-&gt;get_fikrs( ).
@@ -4026,9 +4026,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD _save.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA:
@@ -4280,9 +4280,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~int_service_request_check.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_mode( mode ).
@@ -4325,9 +4325,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~int_service_request_init.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_usercomm( ).
@@ -4349,9 +4349,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~scenario_after_submit.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_mode( mode ).
@@ -4376,9 +4376,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~scenario_final_before_submit.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_mode( mode ).
@@ -4410,9 +4410,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~scenario_process_user_command.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA gl_data_group TYPE /eby/pdmdgl_sbapi_data.
@@ -4738,9 +4738,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD if_ex_qisr1~scenario_set_additional_values.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     me-&gt;set_mode( mode ).
@@ -6761,9 +6761,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD maintain_masterdata.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
 * To be able to maintain from outside, we ensure that:
@@ -7531,9 +7531,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD simulate_masterdata.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
 * To be able to Simulate from outside, we ensure that:
@@ -7657,9 +7657,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata_factory~get_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7682,9 +7682,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata_factory~is_exist.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7708,9 +7708,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD zif_masterdata_factory~maintain_data.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7732,9 +7732,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD assign_fsv.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_fsv_api) = CAST zcl_fi_fsv_api( zcl_fico_masterdata=&gt;get_instance(
@@ -7768,9 +7768,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD constructor.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     super-&gt;constructor( ).
@@ -7851,9 +7851,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD read_glmast.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7877,9 +7877,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD read_gl_blocks.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7906,9 +7906,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD set_api.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     io_api-&gt;clear( ).
@@ -7951,9 +7951,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD set_coa_block.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -7981,9 +7981,9 @@ END-OF-DEFINITION.</localMacros>
    <source>METHOD set_coa_delete.
 
 *----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
     DATA(lo_api) = CAST zcl_fi_glmast_api(
@@ -8269,9 +8269,9 @@ END-OF-DEFINITION.</include_source>
     <documentation PARAMETER="IV_SIMULATE" KIND="P" STEXT="Simulation Mode: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)" INDEX=" 010"/>
     <documentation PARAMETER="RETURN" KIND="P" STEXT="Return Parameter" INDEX=" 011"/>
     <fm_source_new>*----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   August 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
   TRY.
@@ -8357,9 +8357,9 @@ END-OF-DEFINITION.</include_source>
     <documentation PARAMETER="IV_NOTIFICATION" KIND="P" INDEX=" 001"/>
     <documentation PARAMETER="EX_UPDATE_ERROR" KIND="X" INDEX=" 002"/>
     <fm_source_new>*----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   October 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
   TRY.
@@ -8459,9 +8459,9 @@ END-OF-DEFINITION.</include_source>
     <documentation PARAMETER="EX_LOCK_ERROR" KIND="X" INDEX=" 012"/>
     <documentation PARAMETER="EX_SAVE_ERROR" KIND="X" INDEX=" 013"/>
     <fm_source_new>*----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   July 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
   FREE:
@@ -8662,9 +8662,9 @@ END-OF-DEFINITION.</include_source>
     <documentation PARAMETER="EX_LOAD_ERROR" KIND="X" INDEX=" 004"/>
     <documentation PARAMETER="EX_READ_ERROR" KIND="X" INDEX=" 005"/>
     <fm_source_new>*----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   September 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
   CLEAR:
@@ -8770,9 +8770,9 @@ END-OF-DEFINITION.</include_source>
     <documentation PARAMETER="EX_MOVE_ERROR" KIND="X" INDEX=" 014"/>
     <documentation PARAMETER="EX_SAVE_ERROR" KIND="X" INDEX=" 015"/>
     <fm_source_new>*----------------------------------------------------------------------
-* Author: Sougata Chatterjee (UserID 11034616)
+* Author: Sougata Chatterjee
 * Date:   September 2020
-* Reason: TAFE_CIME 144 - GL Account Maintenance Form and Workflow
+* Reason: GL Account Maintenance Form and Workflow
 *----------------------------------------------------------------------
 
   FREE:
@@ -9046,7 +9046,7 @@ END-OF-DEFINITION.</include_source>
    <exception CLSNAME="ZIF_MASTERDATA" CMPNAME="READ_DATA" SCONAME="ZCX_FI_GENERAL" VERSION="1" LANGU="E" DESCRIPT="Exception Object (Resumable)" MTDTYPE="0" EDITORDER="1 " IS_RESUMABLE="X"/>
   </method>
  </INTF>
- <MSAG ARBGB="ZFI_GLMAST" MASTERLANG="E" RESPUSER="11034616" STEXT="Messages for Package ZFI_GLMASTER">
+ <MSAG ARBGB="ZFI_GLMAST" MASTERLANG="E" RESPUSER="SCHATTERJEE" STEXT="Messages for Package ZFI_GLMASTER">
   <t100 SPRSL="E" ARBGB="ZFI_GLMAST" MSGNR="000" TEXT="Please choose a Request Type."/>
   <t100 SPRSL="E" ARBGB="ZFI_GLMAST" MSGNR="001" TEXT="Customising error in QISRSCENARIO - check Characteristics for Scenario &amp;1"/>
   <t100 SPRSL="E" ARBGB="ZFI_GLMAST" MSGNR="002" TEXT="GL Account &amp;1 does not exist in Chart of Account &amp;2."/>
@@ -9122,7 +9122,7 @@ END-OF-DEFINITION.</include_source>
   <t100 SPRSL="E" ARBGB="ZFI_GLMAST" MSGNR="099" TEXT="Master data objects successfully created."/>
   <t100t SPRSL="E" ARBGB="ZFI_GLMAST" STEXT="Messages for Package ZFI_GLMASTER"/>
  </MSAG>
- <SXCI IMP_NAME="ZFI_QISR1_GL_MAINT" TEXT="GL Master Data Maintenance Request via  ISR Form" IMP_CLASS="ZCL_IM_FI_QISR1_GL_MAINT" EXIT_NAME="QISR1" INTER_NAME="IF_EX_QISR1" UNAME="11034616" UDATE="20200820" UTIME="101649" ACTIVE="X" ANAME="11034616" ADATE="20200820" ATIME="101649">
+ <SXCI IMP_NAME="ZFI_QISR1_GL_MAINT" TEXT="GL Master Data Maintenance Request via  ISR Form" IMP_CLASS="ZCL_IM_FI_QISR1_GL_MAINT" EXIT_NAME="QISR1" INTER_NAME="IF_EX_QISR1" UNAME="SCHATTERJEE" UDATE="20200820" UTIME="101649" ACTIVE="X" ANAME="SCHATTERJEE" ADATE="20200820" ATIME="101649">
   <text SPRSL="E"/>
   <fltrs FLT_VAL="ZGLF"/>
  </SXCI>
