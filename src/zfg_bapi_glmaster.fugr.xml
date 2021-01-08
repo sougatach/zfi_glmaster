@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Custom BAPIs for GL Master</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_BAPI_GLMASTERTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_BAPI_GLMASTER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBAPI_GLACCOUNT_MAINTAIN</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Maintenance of GL Account Master Data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SAKNR</PARAMETER>
+       <TYP>SKA1-SAKNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_WITH_REF</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SKA1-SAKNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_KTOPL</PARAMETER>
+       <DEFAULT>&apos;2000&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SKA1-KTOPL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BUKRS</PARAMETER>
+       <DEFAULT>&apos;1020&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SKB1-BUKRS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_COA_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZBAPI_S_COA_DATA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CCODE_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZBAPI_S_CCODE_DATA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_ACCT_NAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>GLACCOUNT_NAME_DATA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_KEYWORD</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SKAS-SCHLW</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <DEFAULT>&apos;I&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZBAPI_S_ACTION-ACTION</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SIMULATE</PARAMETER>
+       <DEFAULT>ABAP_TRUE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>BAPI1030_GEN-TESTRUN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SAKNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L Account Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_WITH_REF</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Reference G/L Account Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_KTOPL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Chart of Accounts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BUKRS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Company Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_COA_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L Account Master Record: Chart of Accounts - Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CCODE_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L Account Master Record: Company Code - Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_ACCT_NAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L Account Master Record: Descriptions - Data</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_KEYWORD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key word for G/L accounts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>G/L account master record: Action for data record</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SIMULATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Simulation Mode: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return Parameter</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,3 @@
+FUNCTION-POOL ZFG_FL_GL_MASTER_UPDATE  MESSAGE-ID zfi_glmast.
+
+* INCLUDE LZFG_FL_GL_MASTER_UPDATED...       " Local class definition

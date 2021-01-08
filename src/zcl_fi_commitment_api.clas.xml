@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>API for FI-CO Commitment Items Master Data</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZFI</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>CHECK_AUTH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Commitment Item Authorisations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>CHECK_MAINTAIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check data before Maintenance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Commitment Item Master Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>GET_FIKRS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Financial Management Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>GET_FIPEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Commitment Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>GET_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Reference Commitment Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>READ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read Commitment Item details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>SET_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Commitment Item Master Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>SET_FIKRS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Financial Management Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>SET_FIPEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Commitment Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>SET_REF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Reference Commitment Item</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_COMMITMENT_API</CLSNAME>
+     <CMPNAME>_SAVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save Commitment Item Master Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

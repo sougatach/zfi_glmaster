@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FI_FSV_API</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>API for Financial Statement Version (FSV)</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZFI</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_FSV_API</CLSNAME>
+     <CMPNAME>GET_ERGSL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get FSV Position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_FI_FSV_API</CLSNAME>
+     <CMPNAME>GET_VERSN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get FSV Version</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZFI_GLMAST</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for Package ZFI_GLMASTER</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Please choose a Request Type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Customising error in QISRSCENARIO - check Characteristics for Scenario &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>GL Account &amp;1 does not exist in Chart of Account &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>GL Account &amp;1 does not exist in Company Code &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Please enter a New GL account number in Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Either B/S account or Profit and Loss account must be ticked in COA &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Please tick only one Account Type not both in Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Please enter a Short Text for Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Please enter a Long Text for Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>GL Account &amp;1 already exists in Chart of Account &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Please choose an Account Group for Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Please choose a TOES Account.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Please choose a Financial Statement.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Please choose a Financial Statement Note.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Please choose a Finacial Statement Cashflow.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Please choose a FS NCVER Disclosure.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Please choose a NCVER Activity.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Please choose a NCVER  CFLO.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Please enter a Group Account number in Chart of Account 1000.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>GL Account &amp;1 already exists in Company Code &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please enter a reason for this change.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Commitment Item &amp;1 already exists in FM Area &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Please enter Commitment Item Name.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Please enter  Commitment Item Description.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Please choose a Dir. postable for Commitment Item.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>GL Account &amp;1 was successfully created in Chart of Account &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>GL Account &amp;1 was successfully created in Company Code &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Please choose a Financial Transaction Type for Commitment Item.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please choose a Commitment Item Category.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Please choose a Superior Commitment Item Category.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Please choose a Standard Variant for Commitment Item.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Please choose an Account Currency.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Please choose a Tax Category.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Please enter an Alternate Account Number.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Please choose a Sort Key.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Please choose a Field Status Group.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Pleaes choose a Planning Level.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Please enter a valid Commitment Item.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Please choose a Planning Relevance.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Please enter a text for Account Assignment Info.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Cost Element &amp;1 already exists in Controlling Area &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>GL Account &amp;1 already assigned to FSV &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Please choose a FSV Hierarchy.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Please choose a FSV Alternate Hierarchy.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Please enter or choose a Cost Element Valid From Date.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Please enter or choose a Cost Element Valid To Date.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Please enter a Name for the Cost Element.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Please enter a Description for the Cost Element.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Please choose a Cost Element Category.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Please enter a Reference GL Account.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Please enter a Reference GL Account in Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Please enter a Reference Commitment Item in FM Area &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No change detected in Short Text for Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>No change detected in Long Text for Chart of Account &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No change detected in Commitment Item Name in FM Area &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>No change detected in Commitment Item Description in FM Area &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>No change detected in Lock Indicator of GL Acct &amp;1 in Chart of Account &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>No change detected in Deletion Flag for GL Acct &amp;1 in Chart of Account &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>No change detected in Reporting Hierarchy Node in Fin Stat Version &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>GL Account &amp;1 not yet assigned to FSV &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Financial Statement Version &amp;1 is currently locked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>GL Account &amp;1 reassignment to Alternate FSV &amp;2 will be ignored.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Please tick the checkbox at the end of the form.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>ISR Form Notification &amp;1 does not exist - please check IQS3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>No Agents found for Level &amp;1 approvals - Please maintain Resp Rule &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Cost Element &amp;1 is currently locked.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Notification &amp;1 is already completed - master data updates not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Please confirm the checklist by ticking checkbox number &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Please confirm the checklist by ticking checkbox below.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Please enter a reason for &amp;1 in the Comments section.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>GLMAST Instance is not in error - cannot provide Error Email List.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>No master data objects were created - &amp;1. Session Rollback.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFI_GLMAST</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Master data objects successfully created.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
